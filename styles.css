@@ -251,3 +251,12 @@ h2{
     font-size: 18px;
     color: #333;
 }
+.news-text a {
+    text-decoration: none; /* حذف زیرخط */
+    color: inherit; /* رنگ متن را از والد بگیرد */
+}
+
+.news-text a:hover {
+    color: #007bff; /* رنگ لینک در حالت هاور */
+}
+
