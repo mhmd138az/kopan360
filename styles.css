@@ -25,7 +25,7 @@ body {
 }
 
 .nav-links li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .nav-links a {
@@ -167,7 +167,7 @@ button:hover {
     background-color: #7bcf66;
 }
 .intro-section {
-    height: 10vh; /* ارتفاع کامل صفحه */
+    height: 15vh; /* ارتفاع کامل صفحه */
     display: flex;
     justify-content: center;
     align-items: center;
