@@ -167,14 +167,14 @@ button {
 button:hover {
     background-color: #7bcf66;
 }
+
 .intro-section {
     height: 25vh; /* ارتفاع کامل صفحه */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* نمایش به صورت فلکس */
+    justify-content: center; /* تراز افقی */
+    align-items: center; /* تراز عمودی */
     overflow: hidden; /* جلوگیری از نمایش اسکرول */
 }
-
 .site-name-container {
     transform: translateY(-100%); /* شروع از بالای صفحه */
     animation: slideDown 1s forwards; /* انیمیشن اسلاید */
