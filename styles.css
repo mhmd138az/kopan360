@@ -530,7 +530,6 @@ h2 {
     color: #007bff; /* رنگ لینک در حالت هاور */
 }
 
-
 .logo {
     display: flex; /* نمایش به صورت افقی */
     align-items: center; /* تراز عمودی */
@@ -538,5 +537,7 @@ h2 {
 
 .logo-image {
     height: 50px; /* ارتفاع لوگو */
-    width: auto; /* حفظ نسبت ابعاد */
+    width: 50px; /* عرض لوگو */
+    border-radius: 50%; /* دایره کردن */
+    object-fit: cover; /* حفظ نسبت ابعاد و پر کردن دایره */
 }
