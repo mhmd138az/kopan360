@@ -167,7 +167,7 @@ button:hover {
     background-color: #7bcf66;
 }
 .intro-section {
-    height: 20vh; /* ارتفاع کامل صفحه */
+    height: 10vh; /* ارتفاع کامل صفحه */
     display: flex;
     justify-content: center;
     align-items: center;
