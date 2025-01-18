@@ -1,0 +1,249 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffdd57;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+    padding: 5px;
+    border: none;
+    background-color: #ffdd57;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.news-section {
+    padding: 20px;
+}
+
+.news-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-item {
+    display: flex;
+    margin: 10px 0;
+    background-color: rgb(254, 255, 245);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.news-item:hover {
+    transform: scale(1.02);
+}
+
+.news-item img {
+    width: 150px;
+    height: 100px;
+}
+
+.news-item div {
+    padding: 10px;
+}
+
+.about-us, .contact-us {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+.contact-us {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.contact-us h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-us p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #6fff00;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #86d856;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7bcf66;
+}
+.intro-section {
+    height: 20vh; /* ارتفاع کامل صفحه */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* جلوگیری از نمایش اسکرول */
+}
+
+.site-name-container {
+    transform: translateY(-100%); /* شروع از بالای صفحه */
+    animation: slideDown 1s forwards; /* انیمیشن اسلاید */
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(0); /* به موقعیت اصلی برگردد */
+    }
+}
+
+.site-name {
+    font-size: 5rem; /* اندازه
+
+ بزرگتر */
+    color: #333; /* رنگ متن */
+    text-align: center; /* مرکز چین */
+}
+
+.news-wrapper {
+    display: flex;
+    flex-direction: column; /* برای نمایش عمودی */
+    align-items: flex-end; /* تراز عمودی به سمت راست */
+}
+
+.news-item {
+    display: flex; /* برای قرار دادن تصویر و متن در کنار هم */
+    align-items: center; /* تراز عمودی */
+    margin-bottom: 20px; /* فاصله بین اخبار */
+    background-color: rgb(254, 255, 245);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 100%; /* عرض کامل */
+    text-align: right; /* تراز متن به سمت راست */
+}
+
+.news-item:hover {
+    transform: scale(1.02);
+}
+
+.news-item img {
+    width: 150px; /* عرض تصویر */
+    height: auto; /* حفظ نسبت ابعاد */
+    margin-left: 20px; /* فاصله بین تصویر و متن */
+}
+
+.news-text {
+    flex: 1; /* متن به اندازه فضای باقی‌مانده گسترش می‌یابد */
+    padding: 10px; /* فاصله داخلی */
+    text-align: right; /* تراز متن به سمت راست */
+}
+
+
+
+
+h2{
+    text-align: center;
+}
+
+.news-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+}
+
+.news-description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
