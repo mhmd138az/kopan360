@@ -536,8 +536,8 @@ h2 {
 }
 
 .logo-image {
-    height: 50px; /* ارتفاع لوگو */
-    width: 50px; /* عرض لوگو */
-    border-radius: 50%; /* دایره کردن */
+    height: 60px; /* ارتفاع لوگو */
+    width: 60px; /* عرض لوگو */
+    border-radius: 100%; /* دایره کردن */
     object-fit: cover; /* حفظ نسبت ابعاد و پر کردن دایره */
 }
