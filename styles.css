@@ -183,12 +183,13 @@ button:hover {
 }
 
 .site-name {
-    font-size: 3rem; /* اندازه
+    font-size: 2rem; /* اندازه
 
  بزرگتر */
     color: #333; /* رنگ متن */
     text-align: center; /* مرکز چین */
 }
+
 
 .news-wrapper {
     display: flex;
