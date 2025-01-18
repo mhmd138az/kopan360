@@ -29,10 +29,13 @@ body {
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
+    color: rgb(255, 255, 255); /* رنگ لینک‌ها */
+    text-decoration: none; /* حذف زیرخط */
+    padding: 10px 1px; /* فاصله داخلی */
+    border-radius: 5px; /* گوشه‌های گرد */
+    transition: background-color 0.3s, color 0.3s; /* انیمیشن تغییر رنگ */
 }
+
 
 .nav-links a:hover {
     color: #ffdd57;
